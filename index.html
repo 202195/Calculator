@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Project1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div style="background-color:bisque; width:340px; height: 520px; border-radius: 30px; " id="Calculator">
+        <h1 style="color: gold; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color:skyblue; border-radius: 30px; ">Calculator Byzkrl</h1>
+        <input  placeholder="Type...." id="display" readonly style="background-color:skyblue; color:  gold; font-size: 40px; text-align: right; height: 50px; offset-distance:20px;" >
+        <div id="keys">
+            <button class="sign" onclick="DisplayW('+')" style="color:gold; font-size: 50px">+</button>
+            <button class="sign" onclick="DisplayW('-')" style="color:gold; font-size: 50px">-</button>
+            <button class="sign" onclick="DisplayW('*')" style="color:gold; font-size: 50px">*</button>
+            <button class="sign" onclick="DisplayW('/')" style="color:gold; font-size: 50px">/</button>
+            <button class="sign" onclick="DisplayW('^')" style="color:gold; font-size: 24px">pow</button>
+            <button onclick="DisplayW('1')" style="color:gold; font-size: 50px">1</button>
+            <button onclick="DisplayW('2')" style="color:gold; font-size: 50px">2</button>
+            <button onclick="DisplayW('3')" style="color:gold; font-size: 50px">3</button>
+            <button onclick="DisplayW('4')" style="color:gold; font-size: 50px">4</button>
+            <button onclick="DisplayW('5')" style="color:gold; font-size: 50px">5</button>
+            <button onclick="DisplayW('6')" style="color:gold; font-size: 50px">6</button>
+            <button onclick="DisplayW('7')" style="color:gold; font-size: 50px">7</button>
+            <button onclick="DisplayW('8')" style="color:gold; font-size: 50px">8</button>
+            <button onclick="DisplayW('9')" style="color:gold; font-size: 50px">9</button>
+            <button onclick="DisplayW('0')" style="color:gold; font-size: 50px">0</button>
+            <button class="sign" onclick="DisplayW('.')" style="color:gold; font-size: 50px">.</button>
+            <button onclick="Clear()" style="color:gold; font-size: 24px">Clear</button>
+            <button onclick="Erase()" style="color:gold; font-size: 24px">Erase</button>
+            <button onclick="Result('=')" style="color:gold; font-size: 50px">=</button>
+            
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+
+
